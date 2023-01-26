@@ -1,0 +1,300 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+img,
+iframe {
+  vertical-align: bottom;
+  max-width: 100%;
+}
+
+input,
+textarea,
+select {
+  font: inherit;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+
+body {
+  font-family: Cooper Hewitt;
+  font-size: 16px;
+  background-color: #004d9d;
+  color: #ffffff;
+}
+a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+section {
+  height: 100vh;
+  background-image: url(sally_1.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+header {
+  position: fixed;
+  top: 20px;
+  left: 20px;
+}
+
+footer {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 5px;
+}
+
+footer a {
+  margin-right: 5px;
+}
+
+a:hover {
+  color: #dddddd;
+}
+
+.image_2 {
+  background-image: url(sally_2.jpg);
+}
+
+.image_3 {
+  background-image: url(sally_3.jpg);
+}
+.image_4 {
+  background-image: url(sally_4.jpg);
+}
+
+@font-face {
+  font-family: "Cooper Hewitt";
+  font-weight: 300;
+  font-style: normal;
+  src: url("//d2wwthy2zmzhx.cloudfront.net/fonts/cooper-hewitt-300.eot");
+  src: url("//d2wwthy2zmzhx.cloudfront.net/fonts/cooper-hewitt-300.eot?#iefix")
+      format("embedded-opentype"),
+    url("//d2wwthy2zmzhx.cloudfront.net/fonts/cooper-hewitt-300.woff2")
+      format("woff2"),
+    url("//d2wwthy2zmzhx.cloudfront.net/fonts/cooper-hewitt-300.woff")
+      format("woff"),
+    url("//d2wwthy2zmzhx.cloudfront.net/fonts/cooper-hewitt-300.ttf")
+      format("truetype"),
+    url("//d2wwthy2zmzhx.cloudfront.net/fonts/cooper-hewitt-300.svg#Cooper Hewitt")
+      format("svg");
+}
+
+@font-face {
+  font-family: "Cooper Hewitt";
+  font-weight: 400;
+  font-style: normal;
+  src: url("//d2wwthy2zmzhx.cloudfront.net/fonts/cooper-hewitt-400.eot");
+  src: url("//d2wwthy2zmzhx.cloudfront.net/fonts/cooper-hewitt-400.eot?#iefix")
+      format("embedded-opentype"),
+    url("//d2wwthy2zmzhx.cloudfront.net/fonts/cooper-hewitt-400.woff2")
+      format("woff2"),
+    url("//d2wwthy2zmzhx.cloudfront.net/fonts/cooper-hewitt-400.woff")
+      format("woff"),
+    url("//d2wwthy2zmzhx.cloudfront.net/fonts/cooper-hewitt-400.ttf")
+      format("truetype"),
+    url("//d2wwthy2zmzhx.cloudfront.net/fonts/cooper-hewitt-400.svg#Cooper Hewitt")
+      format("svg");
+}
+
+@font-face {
+  font-family: "Cooper Hewitt";
+  font-weight: 700;
+  font-style: normal;
+  src: url("//d2wwthy2zmzhx.cloudfront.net/fonts/cooper-hewitt-700.eot");
+  src: url("//d2wwthy2zmzhx.cloudfront.net/fonts/cooper-hewitt-700.eot?#iefix")
+      format("embedded-opentype"),
+    url("//d2wwthy2zmzhx.cloudfront.net/fonts/cooper-hewitt-700.woff2")
+      format("woff2"),
+    url("//d2wwthy2zmzhx.cloudfront.net/fonts/cooper-hewitt-700.woff")
+      format("woff"),
+    url("//d2wwthy2zmzhx.cloudfront.net/fonts/cooper-hewitt-700.ttf")
+      format("truetype"),
+    url("//d2wwthy2zmzhx.cloudfront.net/fonts/cooper-hewitt-700.svg#Cooper Hewitt")
+      format("svg");
+}
+
+@font-face {
+  font-family: "Cooper Hewitt";
+  font-weight: 300;
+  font-style: italic;
+  src: url("//d2wwthy2zmzhx.cloudfront.net/fonts/cooper-hewitt-300_italic.eot");
+  src: url("//d2wwthy2zmzhx.cloudfront.net/fonts/cooper-hewitt-300_italic.eot?#iefix")
+      format("embedded-opentype"),
+    url("//d2wwthy2zmzhx.cloudfront.net/fonts/cooper-hewitt-300_italic.woff2")
+      format("woff2"),
+    url("//d2wwthy2zmzhx.cloudfront.net/fonts/cooper-hewitt-300_italic.woff")
+      format("woff"),
+    url("//d2wwthy2zmzhx.cloudfront.net/fonts/cooper-hewitt-300_italic.ttf")
+      format("truetype"),
+    url("//d2wwthy2zmzhx.cloudfront.net/fonts/cooper-hewitt-300_italic.svg#Cooper Hewitt")
+      format("svg");
+}
+
+@font-face {
+  font-family: "Cooper Hewitt";
+  font-weight: 400;
+  font-style: italic;
+  src: url("//d2wwthy2zmzhx.cloudfront.net/fonts/cooper-hewitt-400_italic.eot");
+  src: url("//d2wwthy2zmzhx.cloudfront.net/fonts/cooper-hewitt-400_italic.eot?#iefix")
+      format("embedded-opentype"),
+    url("//d2wwthy2zmzhx.cloudfront.net/fonts/cooper-hewitt-400_italic.woff2")
+      format("woff2"),
+    url("//d2wwthy2zmzhx.cloudfront.net/fonts/cooper-hewitt-400_italic.woff")
+      format("woff"),
+    url("//d2wwthy2zmzhx.cloudfront.net/fonts/cooper-hewitt-400_italic.ttf")
+      format("truetype"),
+    url("//d2wwthy2zmzhx.cloudfront.net/fonts/cooper-hewitt-400_italic.svg#Cooper Hewitt")
+      format("svg");
+}
+
+@font-face {
+  font-family: "Cooper Hewitt";
+  font-weight: 700;
+  font-style: italic;
+  src: url("//d2wwthy2zmzhx.cloudfront.net/fonts/cooper-hewitt-700_italic.eot");
+  src: url("//d2wwthy2zmzhx.cloudfront.net/fonts/cooper-hewitt-700_italic.eot?#iefix")
+      format("embedded-opentype"),
+    url("//d2wwthy2zmzhx.cloudfront.net/fonts/cooper-hewitt-700_italic.woff2")
+      format("woff2"),
+    url("//d2wwthy2zmzhx.cloudfront.net/fonts/cooper-hewitt-700_italic.woff")
+      format("woff"),
+    url("//d2wwthy2zmzhx.cloudfront.net/fonts/cooper-hewitt-700_italic.ttf")
+      format("truetype"),
+    url("//d2wwthy2zmzhx.cloudfront.net/fonts/cooper-hewitt-700_italic.svg#Cooper Hewitt")
+      format("svg");
+}
